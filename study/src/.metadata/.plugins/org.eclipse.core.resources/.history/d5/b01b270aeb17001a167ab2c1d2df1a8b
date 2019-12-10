@@ -1,0 +1,40 @@
+package kr.mit.oracle;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class OracleDbTest {
+
+	
+
+	
+
+	public static void main(String[] args) {
+		Connection conn = null;
+		PreparedStatement pstmt=null;
+		ResultSet rs= null;
+		
+		String url = "jdbc:oracle:thin\"@localhost:1521:xe";
+		String Id = "scott";
+		String Pass = "tiger";
+
+		// 1. 연결정보 설정
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		conn = DriverManager.getConnection(url, Id, Pass);	
+		
+		// 2. 상태 정보
+		String query = "SELECT * FROM emp";
+		pstmt = conn.prepareStatement(query);
+		
+		
+		// 3. 쿼리 실행
+		rs = pstmt.executeQuery();
+		
+		// 4. 쿼리 결과 처리
+		
+		// 5. 연결 상태 닫음
+	}
+
+}

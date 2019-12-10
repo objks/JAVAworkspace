@@ -1,0 +1,15 @@
+package p77;
+
+public class FootService extends AbstractBaseService {
+
+	public FootService(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String say() {
+		return "Hello";
+	}
+
+}

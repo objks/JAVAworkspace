@@ -1,0 +1,6 @@
+package p77;
+
+public interface BaseService2 {
+	public String say();
+	
+}

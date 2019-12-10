@@ -1,0 +1,32 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ArithmeticOperationsTest {
+
+	@Test
+	public void testAddition() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSubtraction() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMultiplication() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDivision() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testValue() {
+		fail("Not yet implemented");
+	}
+
+}

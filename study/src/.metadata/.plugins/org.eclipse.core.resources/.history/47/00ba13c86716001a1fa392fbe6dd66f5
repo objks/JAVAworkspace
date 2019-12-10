@@ -1,0 +1,11 @@
+package p77;
+
+public abstract class AbstractBaseService2 implements BaseService {	
+	protected String name;
+	
+	public AbstractBaseService2(String name) {
+		this.name=name;
+	}
+
+
+}

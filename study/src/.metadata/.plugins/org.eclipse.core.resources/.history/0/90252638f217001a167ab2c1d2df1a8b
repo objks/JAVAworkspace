@@ -1,0 +1,39 @@
+package kr.mit.oracle;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class OracleDbTest extends DBConnection {
+	
+	public static void main(String[] args) {		
+	
+	PreparedStatement pstmt=null;
+	ResultSet rs= null;
+	Connection conn=null;
+	
+	try {		
+		conn=DBConnection.getConnection();
+		// 2. 상태 정보
+		String query = "SELECT * FROM emp";
+		pstmt = conn.prepareStatement(query);
+					
+		// 3. 쿼리 실행
+		rs = pstmt.executeQuery();
+		
+		// 4. 쿼리 결과 처리
+		
+		
+	} catch (SQLException se) {
+		System.out.println("커리문에서 예외 발생했습니다.");
+		se.printStackTrace();
+	} finally {
+		// 5. 연결 상태 닫음
+	}
+	
+}
+
+}
+}

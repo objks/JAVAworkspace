@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ArithmeticOperations&apos; to &apos;ArithmeticOperationsApps&apos;&#x0D;&#x0A;- Original project: &apos;Day-1205_ArithmeticOperations&apos;&#x0D;&#x0A;- Original element: &apos;ArithmeticOperations&apos;&#x0D;&#x0A;- Renamed element: &apos;ArithmeticOperationsApps&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArithmeticOperations&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{ArithmeticOperations.java[ArithmeticOperations" matchStrategy="1" name="ArithmeticOperationsApps" qualified="false" references="true" similarDeclarations="false" stamp="1575532045779" textual="false" version="1.0"/>
+</session>

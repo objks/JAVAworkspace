@@ -1,0 +1,11 @@
+package p77;
+
+public class FootService extends AbstractBaseService {
+
+	@Override
+	public String say() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

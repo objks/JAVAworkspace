@@ -1,0 +1,10 @@
+package p77;
+
+public class FooServiceTest {
+
+	public static void main(String[] args) {
+		Object obj=new FooService("Hello");
+		System.out.println(obj instanceof FooService);
+	}
+
+}
