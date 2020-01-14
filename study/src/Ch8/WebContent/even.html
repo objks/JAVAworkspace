@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+홀짝을 알려주마
+<input type="text" id="num1">
+<input type="button" value="알려줘라" onclick="clac();"> <br>
+<input type="text" id="result">
+<script>
+function clac(){
+	var num1= parseInt(document.getElementById("num1").value);
+	if(num1%2==0){
+		result="짝수입니다."
+	}else if(num1%2!=0){
+		result="홀수입니다."
+	}
+	document.getElementById("result").value=result;
+}
+</script>
+</body>
+</html>

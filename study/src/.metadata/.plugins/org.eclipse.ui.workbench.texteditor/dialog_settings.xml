@@ -2,15 +2,29 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="&quot; = &quot;" key="selection"/>
+		<item value="grade =&apos;" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="&quot;=&quot;"/>
+			<item value="System.out.println(&quot;학점 "/>
+			<item value="^n"/>
+			<item value="192."/>
+			<item value="&lt;/td&gt;"/>
+			<item value="index"/>
+			<item value="Ch2/home"/>
+			<item value="p"/>
+			<item value="celsius"/>
 		</list>
 		<list key="replacehistory">
+			<item value="grade =&apos;"/>
+			<item value="http://192."/>
+			<item value="&lt;/a&gt;&lt;/td&gt;"/>
+			<item value="class"/>
+			<item value="Ch8/index"/>
+			<item value="div"/>
+			<item value="cel"/>
 			<item value="&quot; = &quot;"/>
 		</list>
 	</section>

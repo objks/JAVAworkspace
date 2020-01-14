@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var now = new Date();
+		document.write(now);
+/* 		var x;
+		x = "Hello World!"
+		alert(x); */
+		var s;
+		s=100;
+		document.write("<br>" + s + "<br>");
+		s= "홍길동";
+		document.write("<br>" + s + "<br>");
+		document.write(s.toUpperCase() + "<br>");
+		function calc() {
+			var x = document.getElementById("x").value;
+			var y = document.getElementById("y").value;
+			var sum;
+			sum = parseFloat(x) + parseFloat(y);
+			document.getElementById("sum").value = sum;
+		}
+	</script>
+	<h3>덧셈 계산기</h3>
+	<form action="" method="post">
+		첫번째 정수 : <input id="x"><br>
+		두번째 정수 : <input id="y"><br>
+		합계 : <input id="sum"><br>
+		<input type="button" value="계산" onclick="calc();">
+	</form>
+</body>
+</html>
